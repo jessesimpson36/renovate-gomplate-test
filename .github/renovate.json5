@@ -128,7 +128,7 @@
         "hairyhenderson/gomplate",
         "gomplate",
       ],
-      "versioning": "git",
+      "versioning": "regex:^v(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$",
       //"extractVersion": "^v(?<version>.*)$",
     },
 
