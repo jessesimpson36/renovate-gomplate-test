@@ -1,0 +1,12 @@
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - run: bash -c 'if [[ "$(cat .tool-versions | grep gomplate | grep -o v)" != "v" ]]; then echo "fail"; exit 1; fi'
