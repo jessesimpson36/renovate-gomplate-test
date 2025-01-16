@@ -128,7 +128,7 @@
         "gomplate",
       ],
       "versioning": "go-mod-directive",
-      "extractVersion": "^(?<version>v.*)$",
+      "extractVersion": "^v(?<version>.*)$",
     },
 
     //
