@@ -128,6 +128,7 @@
         "hairyhenderson/gomplate",
         "gomplate",
       ],
+      "versioning": "loose",
       "extractVersion": "^v(?<version>.*)$",
     },
 
