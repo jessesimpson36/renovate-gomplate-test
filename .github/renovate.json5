@@ -125,6 +125,7 @@
     {
       "matchFileNames": [".tool-versions"],
       "matchPackageNames": [
+        "hairyhenderson/gomplate",
         "gomplate",
       ],
       "versioning": "go-mod-directive",
