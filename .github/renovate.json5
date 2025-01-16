@@ -127,7 +127,7 @@
       "matchPackageNames": [
         "gomplate",
       ],
-      "versioning": "git",
+      "versioning": "go-mod-directive",
       "extractVersion": "^(?<version>v.*)$",
     },
 
