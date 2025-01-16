@@ -128,7 +128,7 @@
         "hairyhenderson/gomplate",
         "gomplate",
       ],
-      "versioning": "go-mod-directive",
+      "extractVersion": "^v(?<version>.*)$",
     },
 
     //
